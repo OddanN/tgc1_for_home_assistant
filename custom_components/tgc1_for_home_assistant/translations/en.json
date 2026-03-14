@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add TGC-1 account",
+        "description": "Enter your TGC-1 personal cabinet credentials.",
+        "data": {
+          "login": "Email",
+          "password": "Password"
+        }
+      },
+      "settings": {
+        "title": "Integration settings",
+        "description": "Set the update interval and choose accounts.",
+        "data": {
+          "scan_interval": "Update interval",
+          "account_ids": "Accounts"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate TGC-1",
+        "description": "Authentication expired for {login}. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the TGC-1 API.",
+      "invalid_auth": "Invalid login or password.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Reauthentication successful.",
+      "unknown": "Unexpected error."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Integration settings",
+        "description": "Set the update interval and choose accounts.",
+        "data": {
+          "scan_interval": "Update interval",
+          "account_ids": "Accounts"
+        }
+      }
+    }
+  }
+}

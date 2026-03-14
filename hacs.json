@@ -1,0 +1,13 @@
+{
+  "name": "TGC-1 for Home Assistant",
+  "country": "RU",
+  "homeassistant": "2025.1.0",
+  "render_readme": true,
+  "domains": [
+    "tgc1_for_home_assistant"
+  ],
+  "documentation": "https://github.com/OddanN/tgc1_for_home_assistant",
+  "authors": [
+    "OddanN"
+  ]
+}
